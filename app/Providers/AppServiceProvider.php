@@ -35,20 +35,20 @@ class AppServiceProvider extends ServiceProvider
         });
 
         //Global Data
-        // $reservations = Reservation::getReservation(0);
-        // $confirm_reservations = Reservation::getReservation(1);
-        // $reservation_mode = ReservationMode::first();
-        // $count = Reservation::countRsv();
-        // $admin = Admin::first();
-        // $setting = Setting::first();
+        $reservations = Reservation::getReservation(0);
+        $confirm_reservations = Reservation::getReservation(1);
+        $reservation_mode = ReservationMode::first();
+        $count = Reservation::countRsv();
+        $admin = Admin::first();
+        $setting = Setting::first();
 
-        // config([
-        //     'reservations' => $reservations,
-        //     'confirm_reservations' => $confirm_reservations,
-        //     'reservation_mode' => $reservation_mode,
-        //     'count' => $count,
-        //     'admin' => $admin,
-        //     'setting' => $setting,
-        // ]);
+        config([
+            'reservations' => $reservations,
+            'confirm_reservations' => $confirm_reservations,
+            'reservation_mode' => $reservation_mode,
+            'count' => $count,
+            'admin' => $admin,
+            'setting' => $setting,
+        ]);
     }
 }
