@@ -21,6 +21,8 @@ Admin :
 <p>Testimonial</p>
 <p>Treatment</p>
 
+<br>
+
 Client :
 <p>Make reservation & notify by email</p>
 <p>Send email</p>
