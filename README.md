@@ -1,5 +1,6 @@
-Simple reservation app for barbers with company profile.
-Build with Laravel 6, boostrap, css, html, jquery, etc.
+Simple Barbershop Reservation System 
+
+Build with Laravel 6, boostrap, css, html, jquery, etc...
 
 Features :
 
