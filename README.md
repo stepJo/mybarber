@@ -1,6 +1,7 @@
-Simple Barbershop Reservation System 
+## Simple Barbershop Reservation System 
 
 Build with Laravel 6, boostrap, css, html, jquery, etc...
+
 
 Features :
 
